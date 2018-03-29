@@ -1,59 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>LotR</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>LoTR</title>
+    </head>
 <body>
 
-<div class="jumbotron">
-  <div class="text-right">
-    <div class="btn-group">
-          <button type="button" class="btn btn-default">Navigation</button>
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="https://palmerelias.github.io/#">Profile</a></li>
-          <li><a href="https://palmerelias.github.io/Projects.html#">Projects</a></li>
+
+  <nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top">
+    <a href="#" class="navbar-brand">Elias Palmer</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href="https://palmerelias.github.io/" class="nav-link">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="https://palmerelias.github.io/Projects.html#" class="nav-link">Projects</a>
+            </li>
         </ul>
     </div>
-  </div>
+</nav>
 
-  <div class="text-center">  
-    <h1>Lord of the Rings</h1>
-    <h2>Two Towers, Book III</h2>
-    <p>By Elias Palmer, Caleb Schwartz, and Ethan Carlson</p> 
+<div class="jumbotron jumbotron-fluid" style="background-color:rgb(236, 235, 235)">
+    <div class="text-center">  
+      <h1>Lord of the Rings</h1>
+     <h3>Two Towers, Book III</h3>
+     <p>By Elias Palmer, Caleb Schwartz, and Ethan Carlson</p> 
   </div>
 </div>
   
 <div class="container">
   <div class="row">
 
-    <div class="col-sm-4">
-        <h4><a href="https://en.wikipedia.org/wiki/Aragorn">Aragorn II</a></h4>
-      <img src="aragorn.jpg" style="width:200px;height:300px;">
+<div class="col-sm-4"> 
+    <div class="container" style="margin-top:30px">
+      <div class="card">
+          <img class="card-img-top" height="310" alt="Card header image" src="aragorn.jpg">
+          <div class="card-body">
+              <h5 class="card-title">Aragorn II</h5>
+              <a href="https://en.wikipedia.org/wiki/Aragorn" class="btn btn-light">Wikipedia</a>
+          </div>
+      </div>
     </div>
+</div>
 
-    <div class="col-sm-4">
-      <h4><a href="https://en.wikipedia.org/wiki/Legolas">Legolas Green Leaf</a></h4>
-      <img src="legolas.jpg" style="width:220px;height:300px;" >
-    </div>
-
-    <div class="col-sm-4">
-        <h4><a href="https://en.wikipedia.org/wiki/Gimli_(Middle-earth)">Lord Gimli</a></h4>
-      <img src="gimli.jpg" style="width:300px;height:300px;">
+<div class="col-sm-4"> 
+  <div class="container" style="margin-top:30px">
+    <div class="card">
+        <img class="card-img-top" height="310" alt="Card header image" src="legolas.jpg">
+        <div class="card-body">
+            <h5 class="card-title">Legolas Green Leaf</h5>
+            <a href="https://en.wikipedia.org/wiki/Legolas" class="btn btn-light">Wikipedia</a>
+        </div>
     </div>
   </div>
 </div>
 
-<br/>
+<div class="col-sm-4"> 
+  <div class="container" style="margin-top:30px">
+    <div class="card">
+        <img class="card-img-top" height="310" alt="Card header image" src="gimli.jpg">
+        <div class="card-body">
+            <h5 class="card-title">Lord Gimli</h5>
+            <a href="https://en.wikipedia.org/wiki/Gimli_(Middle-earth)" class="btn btn-light">Wikipedia</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 <div class="container">
+    <br> 
     <h2>Summary</h2>
   <p>The Lord of the Rings Book 3 opens with a very somber first chapter,
     as Boromir valiantly dies in battle for his people.
@@ -82,31 +108,56 @@
   </p>
 </div>
 
-<div class="container text-center">
+<div class="container">
     <div class="row">
-  
-      <div class="col-sm-5">
-          <h4><a href="https://en.wikipedia.org/wiki/Frodo_Baggins">Frodo Baggins</a></h4>
-        <img src="frodo.jpg" style="width:325px;height:220px;">
+    
+      <div class="col-sm-4"> 
+        <div class="container" style="margin-top:30px">
+          <div class="card">
+              <img class="card-img-top" height="310" alt="Card header image" src="frodo.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">Frodo Baggins</h5>
+                  <a href="https://en.wikipedia.org/wiki/Frodo_Baggins" class="btn btn-light">Wikipedia</a>
+              </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-sm-5">
-          <h4><a href="https://en.wikipedia.org/wiki/Samwise_Gamgee">Samwise Gamgee</a></h4>
-        <img src="samwise.jpg" style="width:360px;height:220px;">
+      <div class="col-sm-4"> 
+        <div class="container" style="margin-top:30px">
+          <div class="card">
+              <img class="card-img-top" height="310" alt="Card header image" src="samwise.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">Samwise Gamgee</h5>
+                  <a href="https://en.wikipedia.org/wiki/Samwise_Gamgee" class="btn btn-light">Wikipedia</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4"> 
+        <div class="container" style="margin-top:30px">
+          <div class="card">
+              <img class="card-img-top" height="310" alt="Card header image" src="smeagol.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">Smeagol</h5>
+                  <a href="https://en.wikipedia.org/wiki/Gollum" class="btn btn-light">Wikipedia</a>
+              </div>
+          </div>
+        </div>
       </div>
 
     </div>
   </div>
 
-<br/>
+  <div class="container">    
+    <br> 
+    <p class="text-center">@ Elias Palmer</p>     
+  </div>
 
-    <p class="text-center">@ Home School Co-op</p>
-
-<style>
-  img {
-    border: 5px solid rgb(146, 145, 145);
-  }
-</style>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
